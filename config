@@ -1,0 +1,33 @@
+[global_config]
+  focus = system
+  title_transmit_bg_color = "#d30102"
+[keybindings]
+  go_down = <Alt>j
+  go_left = <Alt>h
+  go_right = <Alt>l
+  go_up = <Alt>k
+  layout_launcher = <Alt>q
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = gruvbox-dark
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#282828"
+    cursor_color = "#7c6f64"
+    foreground_color = "#ebdbb2"
+    icon_bell = False
+    palette = "#181818:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#ebdbb2:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
+    show_titlebar = False
+  [[gruvbox-dark]]
+    background_color = "#282828"
+    cursor_color = "#7c6f64"
+    foreground_color = "#ebdbb2"
+    palette = "#181818:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#ebdbb2:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
+    show_titlebar = False
